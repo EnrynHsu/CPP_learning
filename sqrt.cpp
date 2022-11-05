@@ -3,14 +3,14 @@
 // using the sqt() function
 
 #include <iostream>
-#include <cmath>                                    //or math.h
-//double __cdecl sqrt(double _X);
+//#include <cmath>                                     //or math.h
+double sqrt(double _X);                                //在vs中是可以的
 int main()
 {
     using namespace std;
 
     double area;
-    cout << "Enter the floor area, in square feet, of your home: "; //最后一个空格居然显示在下一行的开头！！！
+    cout << "Enter the floor area, in square feet, of your home: "; //最后一个空格居然显示在下一行的开头！！！（在vs中显示无误）
     cin >> area;
     double side;
     side = sqrt(area);
